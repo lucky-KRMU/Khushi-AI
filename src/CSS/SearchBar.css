@@ -1,0 +1,22 @@
+.search-box{
+    height: 20vh;
+    width: 60vw;
+    display: flex;
+    border-radius: 2vmin;
+    flex-direction: column;
+    background-color: rgb(56, 0, 56);
+    position: fixed;
+    bottom: 5vh;
+    left: 20vw;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.search-box input{
+    width: 80%;
+    align-self: center;
+    margin: 1vh;
+    font-size: 1.5rem;
+}
+#go-btn{
+    align-self: flex-end;
+}
