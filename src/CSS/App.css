@@ -6,4 +6,15 @@
 h1 { 
   text-align: center;
   margin: 5vh 0;
+  font-family: "bungee spice","Nabla","poppins","Open Sans",Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4rem;
+  cursor: pointer;
+  text-shadow: 0px 10px 45px black;
+}
+
+@media (max-width: 500px) {
+  h1{
+    font-size: 3rem;
+    font-size: 10vw;
+  }
 }

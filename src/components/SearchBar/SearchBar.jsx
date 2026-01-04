@@ -6,8 +6,12 @@ function SearchBar () {
     return(
         <>
             <div className="search-box">
-                <input type="text" name="" id="" />
-                <button id="go-btn">Go</button>
+                <input type="text" 
+                placeholder='Enter your News article here...' 
+                name="search-box-input-text" 
+                id="search-box-input-text" />
+
+                <button id="go-btn" title='Go with the search...?'>&#10162;</button>
             </div>
         </>
     );
