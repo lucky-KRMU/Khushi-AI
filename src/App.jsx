@@ -28,7 +28,7 @@ function App() {
     setInput("");
 
     let finalOutput = generateHastags(content).map((ele)=> (ele.concat(" ")));
-    console.log(finalOutput);
+    // console.log(finalOutput);
     setOutput(finalOutput);
   }
   
