@@ -7,5 +7,9 @@ export default defineConfig({
   server: {
     host: true,
     port: 1503,
-  }
+  },
+  base: '/khushi-ai/',
+  build: {
+    chunkSizeWarningLimit: 1000,
+  },
 })
